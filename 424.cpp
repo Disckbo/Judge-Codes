@@ -36,11 +36,10 @@ int main() {
     while ((c)&&!(b[c])){
 		c--;
 	}
-	if (c){	//some non-zero digits starting at u
+	if (c){	
 		while(c){
 			cout<< b[c--];
 		}
-	//}else{// no non-zero digits, sum is 0;
 		cout << (b[0])<<endl;
 	}
 }
